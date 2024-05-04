@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login/Signup page</title>
+</head>
+<body>
+    <div id="section">
+        <video autoplay loop muted class="vdo">
+            <source src="background.mp4">
+        </video>
+        <!-- content section -->
+        <div class="content">
+            <section id="log-box" class="first">
+                <h6 class="heading">ALREADY MEMBERS <a href="">Need help?</a></h6>
+                <input class="input1" type="email" placeholder="Enter your username or phone number">
+                <input class="input2" type="password" placeholder="Enter your password">
+                <button class="login-btn">Login</button>
+                <h6 class="heading">Don't have any account</h6>
+                <button class="signup-redirect" onclick="signupshow()" >Create an account</button>
+            </section>
+            <section id="sign-box" class="second">
+                <h6 class="tag">NEW USER <a href="">Need help?</a></h6>
+                <input class="inpt1" type="email" placeholder="Enter your email or phone number">
+                <input class="inpt2" type="text" placeholder="your Name">
+                <input class="inpt3" type="password" placeholder="Create a password">
+                <input class="inpt4" type="text" placeholder="Conform your password">
+                <button class="signup-btn">Sign Up</button>
+                <h6 class="tag">Already have an account</h6>
+                <button class="login-redirect" onclick="loginshow()" >Login</button>
+            </section>
+            <section class="third">
+                <h2>Connect with</h2>
+                <p>Here is a simple card UI inspired login that has a nice transition between the Sign In & Register UI.</p>
+            </section>
+        </div>
+    </div>  
+    <script src="logic.js"></script>   
+</body>
+</html>
